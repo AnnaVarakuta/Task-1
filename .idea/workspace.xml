@@ -2,19 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="268477b6-218c-415f-892e-7917ff0b38c8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/jquery.mosaicflow.js" />
-      <change type="DELETED" beforePath="Z:\home\Task-1\jqueri.js" afterPath="" />
-      <change type="DELETED" beforePath="Z:\home\Task-1\jquery.mosaicflow.min.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/Task-1.iml" afterPath="$PROJECT_DIR$/.idea/Task-1.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jquery.mosaicflow.js" afterPath="$PROJECT_DIR$/jquery.mosaicflow.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.less" afterPath="$PROJECT_DIR$/style.less" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Task-1.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374055935246" ignored="false" />
-    <file path="/index.html" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374066110081" ignored="false" />
-    <file path="/dummy.xml" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374062379527" ignored="false" />
+    <file path="/Dummy.txt" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374073100375" ignored="false" />
+    <file path="/index.html" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374075441373" ignored="false" />
+    <file path="/dummy.xml" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374075443410" ignored="false" />
     <file path="/style.less" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374064579807" ignored="false" />
     <file path="/style.css" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374050067365" ignored="false" />
     <file path="/jquery.shapeshift.js" changelist="268477b6-218c-415f-892e-7917ff0b38c8" time="1374062053874" ignored="false" />
@@ -40,7 +39,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="3" selection-start="421" selection-end="421" vertical-scroll-proportion="0.3011811">
+            <state line="177" column="20" selection-start="7303" selection-end="7303" vertical-scroll-proportion="0.6653543">
               <folding>
                 <element signature="n#style#0;n#form#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -51,10 +50,8 @@
       <file leaf-file-name="jquery.mosaicflow.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jquery.mosaicflow.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="322" column="4" selection-start="11294" selection-end="11294" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="139" column="38" selection-start="4690" selection-end="4690" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,7 +59,7 @@
       <file leaf-file-name="style.less" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="15.16">
+            <state line="78" column="1" selection-start="988" selection-end="988" vertical-scroll-proportion="-19.52">
               <folding />
             </state>
           </provider>
@@ -93,8 +90,8 @@
         <option value="$PROJECT_DIR$/jquery.shapeshift.coffee.js" />
         <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/jquery.shapeshift.js" />
-        <option value="$PROJECT_DIR$/jquery.mosaicflow.js" />
         <option value="$PROJECT_DIR$/style.less" />
+        <option value="$PROJECT_DIR$/jquery.mosaicflow.js" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -132,6 +129,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -152,7 +150,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -161,8 +158,8 @@
     <property name="options.lastSelected" value="lessc" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <list size="0" />
@@ -178,14 +175,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="10" y="10" width="1346" height="728" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="CSS-X-Fire" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27102804" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.27570093" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -261,6 +258,20 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jquery.mosaicflow.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="4" selection-start="11294" selection-end="11294" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
         <state line="79" column="10" selection-start="1042" selection-end="1042" vertical-scroll-proportion="0.0">
@@ -338,25 +349,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/jquery.mosaicflow.js">
+    <entry file="file://$PROJECT_DIR$/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="4" selection-start="11294" selection-end="11294" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+        <state line="78" column="1" selection-start="988" selection-end="988" vertical-scroll-proportion="-19.52">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.less">
+    <entry file="file://$PROJECT_DIR$/jquery.mosaicflow.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="1" selection-start="394" selection-end="394" vertical-scroll-proportion="15.16">
+        <state line="139" column="38" selection-start="4690" selection-end="4690" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="3" selection-start="421" selection-end="421" vertical-scroll-proportion="0.3011811">
+        <state line="177" column="20" selection-start="7303" selection-end="7303" vertical-scroll-proportion="0.6653543">
           <folding>
             <element signature="n#style#0;n#form#0;n#div#0;n#nav#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>

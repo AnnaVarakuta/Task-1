@@ -42,7 +42,7 @@
     $.fn.mosaicflow.defaults = {
         itemSelector: '> *',
         columnClass: 'mosaicflow__column',
-        minItemWidth: 240,
+        minItemWidth: 220,
         itemHeightCalculation: 'auto'
     };
 
@@ -137,7 +137,7 @@
 
                 this.columns = this.workingContainer.find('.' + this.options.columnClass);
                 this.columns.each(function(){
-                    $(this).width((100 / calculatedCnt) + '%');
+                    $(this).width((100/ calculatedCnt) + '%');
                 });
                 return true;
             }
