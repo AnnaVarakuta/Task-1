@@ -5264,10 +5264,6 @@ body {
   height: 100%;
   margin-top: 10px;
 }
-.content {
-  width: 700px;
-  position: relative;
-}
 .blok {
   border: 1px solid #999999;
   margin: 10px;
@@ -5275,6 +5271,7 @@ body {
   line-height: 18px;
   background: #ffffff;
   padding: 8px;
+  position: relative;
 }
 .blok a {
   color: #000000;
@@ -5283,10 +5280,7 @@ body {
   width: 200px;
 }
 .blok2 {
-  width: 435px;
-}
-.blok3 {
-  width: 200px;
+  width: 450px;
 }
 .blok-yellow {
   margin: 10px;

@@ -42,7 +42,7 @@
     $.fn.mosaicflow.defaults = {
         itemSelector: '> *',
         columnClass: 'mosaicflow__column',
-        minItemWidth: 220,
+        minItemWidth: 240,
         itemHeightCalculation: 'auto'
     };
 
@@ -323,7 +323,7 @@
 }));/**
  * Created with JetBrains PhpStorm.
  * User: Администратор
- * Date: 16.07.13
- * Time: 12:02
+ * Date: 17.07.13
+ * Time: 15:37
  * To change this template use File | Settings | File Templates.
  */
