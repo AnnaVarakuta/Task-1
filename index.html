@@ -10,14 +10,21 @@
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
 
     <!-- Расстановка блоков плиточкой -->
-    <script src="jquery.mosaicflow.js"></script>
-    <script>
-        $('container').mosaicflow({
-        itemSelector: '.item',
-        minItemWidth: 200
-        });
-    </script>
 
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+    <script src="jquery.touch-punch.min.js"></script>
+    <script src="jquery.shapeshift.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".container").shapeshift({
+                gutterX: 5, // Compensate for border width
+                gutterY: 5, // Compensate for border width
+                paddingX: 0,
+                paddingY: 0
+            });
+        })
+    </script>
     <!-- end Расстановка блоков плиточкой -->
 
     <!-- Всплывающие подсказки -->
@@ -34,222 +41,155 @@
 
 <body>
 
-   <!-- Черное навигационное меню -->
-    <div class="navbar  navbar-inverse navbar-static-top ">
-        <nav class="navbar-inner ">
-            <div class="container-fluid">
-                <a href="#" class="brand">Classified Ads</a>
-                <div class="btn btn-danger pull-right">Post your add</div>
-            </div>
-        </nav>
-    </div>
-   <!-- end Черное навигационное меню -->
-
-    <!-- Серое навигационное меню -->
-    <div class="navbar">
-
-            <nav class="navbar-inner ">
-                <div class="container-fluid">
-                <div class=" pull-left">
-                    <ul class="nav nav-tabs">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle tips" title="Выбрать город" data-toggle="dropdown">Los Angeles
-                                <b class="caret"></b>
-                            </a>
-
-                            <ul class="dropdown-menu">
-                                <li>
-                                    <a href="#" data-toggle="tab">1</a>
-                                </li>
-                                <li>
-                                    <a href="#" data-toggle="tab">2</a>
-                                </li>
-                                <li>
-                                    <a href="#" data-toggle="tab">3</a>
-                                </li>
-                            </ul>
-                        </li>
-                    </ul>
-
-
-                </div>
-
-                <form class="navbar-form pull-left" style="margin-left:10px; margin-right:20px">
-                    <input type="text" class="span7 tips" title="Что хотите увидеть?" value="What are you looking?">
-                </form>
-
-                <div class="btn-group">
-                    <a class="btn dropdown-toggle width-btn tips" title="Выбрать рубрику" data-toggle="dropdown" href="#">
-                        Choose rubric
-                        <span class="caret"></span>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li>
-                            <a href="#" data-toggle="tab">1</a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="tab">2</a>
-                        </li>
-                        <li>
-                            <a href="#" data-toggle="tab">3</a>
-                        </li>
-                    </ul>
-                </div>
-
-                <div class="btn pull-right width-btn tips" title="Найти">Search</div>
-                </div>
-            </nav>
-    </div>
-    <!-- end Серое навигационное меню -->
-
-
-    <!-- Основной контент -->
-    <div class="container">
-        <div class="row">
-            <div class="span9">
-                <div class="mosaicflow" >
-
-                    <div class="blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div class="blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div  class="blok-yellow blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time-yellow">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div class=" blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной моделей. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div class="blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div class=" blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной моделей. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-                    
-                    <div class=" blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной моделей. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div class=" blok blok1 mosaicflow__item" >
-                        <a href="#">
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной моделей. </p>
-                        </a>
-                        <div class="time">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-
-                    <div  class="blok-yellow blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time-yellow">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                   </div>
-
-                    <div  class="blok-yellow blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time-yellow">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-                    <div  class="blok-yellow blok1 mosaicflow__item" >
-                        <a href="#">
-                            <img src="img/avto1.png" alt=""/>
-                            <h3>SKODA Fabia</h3>
-                            <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
-                                моделей в истории нашей компании. </p>
-                        </a>
-                        <div class="time-yellow">
-                            <span>Cars>Skoda<br/>16 июля 2012</span>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
-
-            <!-- Правая колонка-->
-            <div class="span3 ">
-                 <div class="fix-banner text-center"><img src="img/ban1.png" alt="банер"/></div>
-                 <div class="fix-banner text-center"><img src="img/ban2.png" alt="банер"/></div>
-                 <div class="fix-banner text-center"><img src="img/ban3.png" alt="банер1"/></div>
-                 <div class="fix-banner text-center"><img src="img/ban4.png" alt="банер1"/></div>
-                 <div class="fix-banner text-center"><img src="img/ban1.png" alt="банер1"/></div>
-             </div>
-            <!-- end Правая колонка-->
+<!-- Черное навигационное меню -->
+<div class="navbar  navbar-inverse navbar-static-top ">
+    <nav class="navbar-inner ">
+        <div class="container-fluid">
+            <a href="#" class="brand">Classified Ads</a>
+            <div class="btn btn-danger pull-right">Post your add</div>
         </div>
+    </nav>
+</div>
+<!-- end Черное навигационное меню -->
+
+<!-- Серое навигационное меню -->
+<div class="navbar">
+
+    <nav class="navbar-inner ">
+        <div class="container-fluid">
+            <div class=" pull-left">
+                <ul class="nav nav-tabs">
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle tips" title="Выбрать город" data-toggle="dropdown">Los Angeles
+                            <b class="caret"></b>
+                        </a>
+
+                        <ul class="dropdown-menu">
+                            <li>
+                                <a href="#" data-toggle="tab">1</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tab">2</a>
+                            </li>
+                            <li>
+                                <a href="#" data-toggle="tab">3</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+
+
+            </div>
+
+            <form class="navbar-form pull-left" style="margin-left:10px; margin-right:20px">
+                <input type="text" class="span7 tips" title="Что хотите увидеть?" value="What are you looking?">
+            </form>
+
+            <div class="btn-group">
+                <a class="btn dropdown-toggle  rubric tips" title="Выбрать рубрику" data-toggle="dropdown" href="#">
+                    Choose rubric
+                    <span class="caret"></span>
+                </a>
+                <ul class="dropdown-menu">
+                    <li>
+                        <a href="#" data-toggle="tab">1</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tab">2</a>
+                    </li>
+                    <li>
+                        <a href="#" data-toggle="tab">3</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="btn pull-right  tips" title="Найти">Search</div>
+        </div>
+    </nav>
+</div>
+<!-- end Серое навигационное меню -->
+
+
+<!-- Основной контент -->
+<div class="main_content">
+    <div class="row">
+        <div class="span9">
+            <div class="container">
+                <div class="blok " data-ss-colspan='1'>
+                    <a href="#">
+                        <img src="img/avto1.png" alt=""/>
+                        <h3>SKODA Fabia</h3>
+                        <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
+                            моделей в истории нашей компании. </p>
+                    </a>
+                    <div class="time">
+                        <span>Cars>Skoda<br/>16 июля 2012</span>
+                    </div>
+                </div>
+
+                <div class="blok " data-ss-colspan='1' >
+                    <a href="#">
+                        <h3>SKODA Fabia</h3>
+                        <p>Мы с огромным удовольствием представляем Вам второе поколение. </p>
+                    </a>
+                    <div class="time">
+                        <span>Cars>Skoda<br/>16 июля 2012</span>
+                    </div>
+                </div>
+
+                <div class="blok-yellow" data-ss-colspan='1' >
+                    <a href="#">
+                        <img src="img/avto1.png" alt=""/>
+                        <h3>SKODA Fabia</h3>
+                        <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
+                            моделей в истории нашей компании. </p>
+                    </a>
+                    <div class="time-yellow">
+                        <span>Cars>Skoda<br/>16 июля 2012</span>
+                    </div>
+                </div>
+
+                <div class="blok " data-ss-colspan='1' >
+                    <a href="#">
+                        <h3>SKODA Fabia</h3>
+                        <p>Мы с огромным удовольствием представляем Вам второе поколение. </p>
+                    </a>
+                    <div class="time">
+                        <span>Cars>Skoda<br/>16 июля 2012</span>
+                    </div>
+                </div>
+
+                <div  class="blok " data-ss-colspan='2'>
+                    <a href="#">
+                        <img src="img/avto2.png" alt=""/>
+                        <h3>SKODA Fabia</h3>
+                        <p>Мы с огромным удовольствием представляем Вам второе поколение одной из наиболее успешных
+                            моделей в истории нашей компании. </p>
+                    </a>
+                    <div class="time">
+                        <span>Cars>Skoda<br/>16 июля 2012</span>
+                    </div>
+                </div>
+
+
+
+
+
+            </div>
+        </div>
+
+        <!-- Правая колонка-->
+        <div class="span3 ">
+            <div class="fix-banner text-center"><img src="img/ban1.png" alt="банер"/></div>
+            <div class="fix-banner text-center"><img src="img/ban2.png" alt="банер"/></div>
+            <div class="fix-banner text-center"><img src="img/ban3.png" alt="банер1"/></div>
+            <div class="fix-banner text-center"><img src="img/ban4.png" alt="банер1"/></div>
+            <div class="fix-banner text-center"><img src="img/ban1.png" alt="банер1"/></div>
+        </div>
+        <!-- end Правая колонка-->
     </div>
-    <!-- end Основной контент -->
+</div>
+<!-- end Основной контент -->
 
 <!-- Bootstrap -->
 

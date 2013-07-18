@@ -4,28 +4,32 @@
 
 body{
   background:url("img/fon.png");
+  margin: 0 auto;
 }
 
+.main_content{
+  margin: 0 auto;
 
-.width-btn{
-  width: 225px;
+}
+.rubric{
+  background: @white;
+
+
 }
 .fix-banner{
   width: 220px;
   height: 100%;
-  margin-top: 10px;
+  margin-bottom: 10px;
 }
-
 
 
 .blok{
   border: 1px solid @grayLight;
-  margin: 10px;
   font-size: 12px;
   line-height: 18px;
   background: @white;
   padding: 8px;
-  position: relative;
+
 
   a{
     color: @black;
@@ -36,10 +40,9 @@ body{
   width: 200px;
 }
 .blok2{
-  width: 450px;
+  width: 420px;
 }
 .blok-yellow{
-  margin: 10px;
   font-size: 12px;
   line-height: 18px;
   background: #fef5ca;
@@ -49,7 +52,7 @@ body{
     color: @black;
   }
 
- }
+}
 .time-yellow{
   background: #f5ecc3;
   width: 100%;
@@ -71,16 +74,23 @@ body{
 
 }
 
-.mosaicflow__column {
-  float:left;
-}
-.mosaicflow__item {
-  position:relative;
-}
-.mosaicflow__item img {
-  display:block;
-  width:100%;
-  height:auto;
+.container {
+
+  position: relative;
+  width: 100%;
+  margin: 0 auto;
 }
 
+.container > div.blok, div.blok-yellow {
+  height: auto;
+  position: absolute;
+}
+.container > div[data-ss-colspan='1'] { width: 200px;}
+.container > div[data-ss-colspan='2'] { width: 420px;}
+
+
+.container .ss-placeholder-child {
+  background: transparent;
+  border: 1px dashed red;
+}
 
